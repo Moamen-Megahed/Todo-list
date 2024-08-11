@@ -71,7 +71,7 @@ export default function Home({ navigation }) {
                 />
                 <View style={styles.divider} />
                 <View style={styles.filterContainer}>
-                    {['All', 'Active', 'Done'].map(status => (
+                    {['All', 'Active',].map(status => (
                         <TouchableOpacity
                             key={status}
                             style={[styles.filterButton, filter === status && styles.selectedFilter]}
